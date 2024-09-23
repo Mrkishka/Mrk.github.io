@@ -52,7 +52,7 @@
     margin-bottom: 20px;
 }
 
-.desc__main_center {
+.desc__main-center {
     text-align: justify;
 }
 
@@ -74,7 +74,7 @@
     border: 1px solid #dddddd;
 }
 
-.table__header_cell {
+.table__header-cell {
     color: rgb(235, 223, 223);
     font-size: 30px;
     font-weight: bold;
@@ -88,7 +88,7 @@
     text-align: left;
 }
 
-.table__flesh_cell {
+.table__flesh-cell {
     color: rgb(235, 223, 223);
     font-size: 20px;
     padding: 5px 20px;
