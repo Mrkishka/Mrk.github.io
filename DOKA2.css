@@ -1,12 +1,6 @@
 /* body {
     background: bisque url('\\wsl.localhost\Ubuntu\home\mrk\back.png');
 } */
-p {
-    text-align: left;
-    font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    color: rgb(193, 223, 193);
-}
 
 .headline {
     color: rgb(235, 223, 223);
@@ -18,9 +12,13 @@ p {
     text-align: center;
 }
 
-.gifanim {
+.gif {
     display: inline-block;
     position: relative;
+
+}
+
+.gif__anim {
     top: -90px;
 }
 
