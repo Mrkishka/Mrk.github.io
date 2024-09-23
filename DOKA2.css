@@ -2,63 +2,80 @@
     background: bisque url('\\wsl.localhost\Ubuntu\home\mrk\back.png');
 } */
 
-h1 {
+.headline {
+    color: rgb(235, 223, 223);
+}
+
+.headline__body {
     font-size: 50px;
     color: rgb(255, 0, 0);
     text-align: center;
 }
 
-p {
+.anim__gif {
+    display: inline-block;
+    position: relative;
+    top: -90px;
+}
+
+.anim__vid {
+    display: inline-block;
+    position: relative;
+}
+
+.anim__head {
     text-align: left;
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     color: rgb(193, 223, 193);
 }
 
-.gifanim {
+.aud__head {
+    text-align: left;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(193, 223, 193);
+}
+
+.aud__voice {
     display: inline-block;
     position: relative;
-    top: -90px;
-}
-
-.vid {
-    display: inline-block;
-    position: relative;
-}
-
-.aud {
-    display: inline-block;
-    position: relative;
-}
-
-td {
-    color: rgb(226, 217, 217);
-}
-
-th {
-    color: rgb(235, 223, 223);
 }
 
 .desc {
-    margin-top: 50px;
     color: rgb(235, 223, 223);
+}
+
+.desc__main {
+    margin-top: 50px;
     font-size: 30px;
     margin-bottom: 20px;
 }
 
-#itemtable {
+.desc__main_center {
+    text-align: justify;
+}
+
+.table {
     display: inline-block;
     table-layout: block;
     width: 58%;
     margin-bottom: 20px;
 }
 
-.tagname {
+.table__tagname {
     font-size: 30px;
     color: rgb(226, 217, 217);
 }
 
-#itemtable th {
+.table__header {
+    padding: 5px;
+    background: #5e5151;
+    border: 1px solid #dddddd;
+}
+
+.table__header_cell {
+    color: rgb(235, 223, 223);
     font-size: 30px;
     font-weight: bold;
     padding: 5px;
@@ -66,11 +83,16 @@ th {
     border: 1px solid #dddddd;
 }
 
-#itemtable td {
-    font-size: 20px;
-    padding: 5px 20px;
+.table__flesh {
     border: 1px solid #9b8383;
     text-align: left;
+}
+
+.table__flesh_cell {
+    color: rgb(235, 223, 223);
+    font-size: 20px;
+    padding: 5px 20px;
+
 }
 
 
