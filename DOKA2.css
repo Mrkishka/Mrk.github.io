@@ -12,10 +12,14 @@
     text-align: center;
 }
 
-.gif {
+.gifanim {
     display: inline-block;
     position: relative;
     top: -90px;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(193, 223, 193);
 }
 
 .anim__vid {
