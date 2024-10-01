@@ -20,7 +20,7 @@ if (isSure) {
 	img.style.width = '500px'
 	imageContainer.appendChild(img)
 }
-document.body.innerHTML += '<table><tr><th>Циклы и switch</th></tr>'
+document.body.innerHTML += '<table><tr><th>JS</th></tr>'
 
 let content = '<tr><td><h2>Цикл for</h2>'
 for (let i = 1; i <= 5; i++) {
