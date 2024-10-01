@@ -22,7 +22,7 @@ if (isSure) {
 }
 document.body.innerHTML += '<table><tr><th>JS</th></tr>'
 
-let content = '<tr><td><h3>Цикл for</h4>'
+let content = '<tr><td><h3>Цикл for</h3>'
 for (let i = 1; i <= 5; i++) {
 	content += 'Число: ' + i + '<br>'
 }
