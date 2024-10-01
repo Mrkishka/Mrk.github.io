@@ -72,6 +72,5 @@ const greet = function (name) {
 document.body.innerHTML += "<table><tr><th>Function Expression</th></tr>";
 
 let greetingMessage = greet(userName);
-document.body.innerHTML += "<tr><td><h2>Пример Function Expression</h2>";
-document.body.innerHTML += "<h1>" + greetingMessage + "</h1>";
+document.body.innerHTML += "<tr><td><h2>" + greetingMessage + "</h2>";
 document.body.innerHTML += "</td></tr></table>";
