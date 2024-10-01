@@ -13,6 +13,13 @@ if (isSure) {
     alert("Вы выбрали 'Да'.");
 } else {
     alert("Вы выбрали 'Нет'.");
+    // Добавление изображения на страницу при ответе "Нет"
+    let imageContainer = document.getElementById("image-container");
+    let img = document.createElement("img");
+    img.src = "https://mrkishka.github.io/mrk.github.io/xzzx.jpg"; // Путь к вашему изображению
+    img.alt = "Изображение для ответа 'Нет'";
+    img.style.width = "300px"; // Можно задать размер изображения
+    imageContainer.appendChild(img);
 }
 
 // Добавляем таблицу для второго пункта (циклы и switch)
