@@ -15,7 +15,7 @@ if (isSure) {
     let img = document.createElement("img");
     img.src = "https://mrkishka.github.io/mrk.github.io/xzzx.jpg"; // Путь к вашему изображению
     img.alt = "Изображение для ответа 'Нет'";
-    img.style.width = "1500px";
+    img.style.width = "500px";
     imageContainer.appendChild(img);
 }
 document.body.innerHTML += "<table><tr><th>Циклы и switch</th></tr>";
