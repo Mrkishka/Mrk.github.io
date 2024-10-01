@@ -22,13 +22,13 @@ if (isSure) {
 }
 document.body.innerHTML += '<table><tr><th>JS</th></tr>'
 
-let content = '<tr><td><h2>Цикл for</h2>'
+let content = '<tr><td><h3>Цикл for</h4>'
 for (let i = 1; i <= 5; i++) {
 	content += 'Число: ' + i + '<br>'
 }
 content += '</td></tr>'
 
-content += '<tr><td><h2>Цикл while</h2>'
+content += '<tr><td><h3>Цикл while</h3>'
 let count = 1
 while (count <= 3) {
 	content += 'Цикл while, шаг ' + count + '<br>'
@@ -36,7 +36,7 @@ while (count <= 3) {
 }
 content += '</td></tr>'
 let day = new Date().getDay()
-content += '<tr><td><h2>Оператор switch</h2>'
+content += '<tr><td><h3>Оператор switch</h3>'
 switch (day) {
 	case 0:
 		content += 'Сегодня на топ.<br>'
@@ -72,5 +72,5 @@ const greet = function (name) {
 document.body.innerHTML += '<table><tr><th>Function Expression</th></tr>'
 
 let greetingMessage = greet(userName)
-document.body.innerHTML += '<tr><td><h2>' + greetingMessage + '</h2>'
+document.body.innerHTML += '<tr><td><h3>' + greetingMessage + '</h3>'
 document.body.innerHTML += '</td></tr></table>'
