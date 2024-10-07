@@ -74,3 +74,28 @@ document.body.innerHTML += '<table><tr><th>Function Expression</th></tr>'
 let greetingMessage = greet(userName)
 document.body.innerHTML += '<tr><td><h3>' + greetingMessage + '</h3>'
 document.body.innerHTML += '</td></tr></table>'
+
+let string = "Ноль";
+const stringConstant = "Пятнадцать";
+
+let number = 2;
+const numberConstant = 3.14;
+
+let boolean = true;
+const booleanConstant = false;
+
+let chinchin = null;
+const nullConstant = null;
+
+let undefined;
+const undefinedConstant = undefined;
+
+let object = { name: "Staryi Bloh", surname: "Vitalya" };
+const objectConstant = { lane: "mid", hero: "IO" };
+
+console.log(number, numberConstant);
+console.log(string, stringConstant);
+console.log(boolean, booleanConstant);
+console.log(chinchin, nullConstant);
+console.log(undefined, undefinedConstant);
+console.log(object, objectConstant);
