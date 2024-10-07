@@ -93,9 +93,9 @@ const undefinedConstant = undefined;
 let object = { name: "Staryi Bloh", surname: "Vitalya" };
 const objectConstant = { lane: "mid", hero: "IO" };
 
-console.log(number, numberConstant);
-console.log(string, stringConstant);
-console.log(boolean, booleanConstant);
-console.log(chinchin, nullConstant);
-console.log(undefined, undefinedConstant);
-console.log(object, objectConstant);
+// console.log(number, numberConstant);
+// console.log(string, stringConstant);
+// console.log(boolean, booleanConstant);
+// console.log(chinchin, nullConstant);
+// console.log(undefined, undefinedConstant);
+// console.log(object, objectConstant);
