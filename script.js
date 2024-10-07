@@ -93,9 +93,54 @@ const undefinedConstant = undefined;
 let object = { name: "Staryi Bloh", surname: "Vitalya" };
 const objectConstant = { lane: "mid", hero: "IO" };
 
-// console.log(number, numberConstant);
-// console.log(string, stringConstant);
-// console.log(boolean, booleanConstant);
-// console.log(chinchin, nullConstant);
-// console.log(undefined, undefinedConstant);
-// console.log(object, objectConstant);
+function mainFunction() {
+	let Lvar = 'Нахожусь в зоне комфорта'
+	const varconsta = 'Нахожусь в зоне константы'
+
+	function otherFunction() {
+		document.getElementById(
+			'output'
+		).innerHTML += `ФУНКЦИЙ РАБОТАЕТ ВАТАФАК МАЗАФАК Ю НОУ [демонстрация работы вложенной функции otherFunction]<br>`
+	}
+
+	otherFunction()
+}
+
+mainFunction()
+
+let a = 5
+document.getElementById(
+	'output'
+).innerHTML += `Весь мир - театр, а переменный всего-лишь буквы: <br>`
+document.getElementById('output').innerHTML += `a: ${a}<br>`
+document.getElementById('output').innerHTML += `++a: ${a++}<br>`
+document.getElementById('output').innerHTML += `a++: ${++a}<br>`
+document.getElementById('output').innerHTML += `+a: ${+a}<br>`
+
+alert('Нажимая кнопку ОК вы автоматически записываетесь в миротворцы')
+let userInput = prompt('Чтобы подписать петицию, напишите ваше имя')
+confirm('Вы точно ' + userInput + '?')
+
+for (let i = 0; i < 3; ++i) {
+	document.getElementById('output').innerHTML += `Спирали: ${i}<br>`
+
+	let day = i
+	switch (day) {
+		case 1:
+			document.getElementById('output').innerHTML += 'Спирали существуют.<br>'
+			break
+		case 2:
+			document.getElementById('output').innerHTML +=
+				'сущессуществуюттвсуществуютуюсуществуютт Спсуществуютирасуществуютли сущессуществуюттвуют.<br>'
+			break
+		default:
+			document.getElementById('output').innerHTML +=
+				'Списуществуютрали не сущесуществуютет<br>'
+	}
+}
+
+const myFunction = function () {
+	document.getElementById('output').innerHTML += 'Оборвался на полусло...<br>'
+}
+
+myFunction()
