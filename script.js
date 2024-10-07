@@ -74,39 +74,36 @@ document.body.innerHTML += '<table><tr><th>Function Expression</th></tr>'
 let greetingMessage = greet(userName)
 document.body.innerHTML += '<tr><td><h3>' + greetingMessage + '</h3>'
 document.body.innerHTML += '</td></tr></table>'
-let n = 1488 // типа циферы
-const str = 'Ели мясо мужики' // типа букавы
-let balls = true // типа булианы
-let nedostupnost6 = null // типа ничтожество
-let what // типа непонятки
-let obj = { key: 'value' } // ОБЖ
+
+let n = 0
+const str = 'Нольпятнадцатьдва'
+let rur = true
+let linad = null
+let sheesh
+let obj = { name: 'Staryi Bloh' }
 
 function mainFunction() {
-	let Lvar = 'Нахожусь в зоне комфорта'
-	const varconsta = 'Нахожусь в зоне константы'
-
-	function otherFunction() {
-		document.getElementById(
-			'output'
-		).innerHTML += `ФУНКЦИЙ РАБОТАЕТ ВАТАФАК МАЗАФАК Ю НОУ [демонстрация работы вложенной функции otherFunction]<br>`
-	}
-
-	otherFunction()
+	let Lvar = 'Я'
+	const varconsta = 'Тоже Я, но в константе'
+	otherFunction();
+}
+function otherFunction() {
+	document.getElementById('output').innerHTML += '<span style="color: blue;">`Чинчопа чинчопа</span><br>'
 }
 
 mainFunction()
 
-let a = 5
+let a = 52
 document.getElementById(
 	'output'
-).innerHTML += `Весь мир - театр, а переменный всего-лишь буквы: <br>`
+).innerHTML += '<span style="color: pink;">`Циферки мои циферки, люблю свои циферки</span><br>'
 document.getElementById('output').innerHTML += `a: ${a}<br>`
 document.getElementById('output').innerHTML += `++a: ${a++}<br>`
 document.getElementById('output').innerHTML += `a++: ${++a}<br>`
 document.getElementById('output').innerHTML += `+a: ${+a}<br>`
 
 const myFunction = function () {
-	document.getElementById('output').innerHTML += 'Оборвался на полусло...<br>'
+	document.getElementById('output').innerHTML += '<span style="color: grey;">`Дивные циклы идут далее >>></span><br>'
 }
 
 myFunction()
