@@ -88,7 +88,7 @@ function mainFunction() {
 	otherFunction();
 }
 function otherFunction() {
-	document.getElementById('output').innerHTML += '<span style="color: blue;">`Чинчопа чинчопа</span><br>'
+	document.getElementById('output').innerHTML += '<span style="color: blue;">Чинчопа чинчопа</span><br>'
 }
 
 mainFunction()
@@ -96,11 +96,11 @@ mainFunction()
 let a = 52
 document.getElementById(
 	'output'
-).innerHTML += '<span style="color: pink;">`Циферки мои циферки, люблю свои циферки</span><br>'
-document.getElementById('output').innerHTML += '<span style="color: white;">`a: ${a}</span><br>'
-document.getElementById('output').innerHTML += '<span style="color: yellow;">`++a: ${a++}</span><br>'
-document.getElementById('output').innerHTML += '<span style="color: red;">`a++: ${++a}</span><br>'
-document.getElementById('output').innerHTML += '<span style="color: green;">`+a: ${+a}</span><br>'
+).innerHTML += '<span style="color: pink;">Циферки мои циферки, люблю свои циферки</span><br>'
+document.getElementById('output').innerHTML += '<span style="color: white;">a: ${a}</span><br>'
+document.getElementById('output').innerHTML += '<span style="color: yellow;">++a: ${a++}</span><br>'
+document.getElementById('output').innerHTML += '<span style="color: red;">a++: ${++a}</span><br>'
+document.getElementById('output').innerHTML += '<span style="color: green;">+a: ${+a}</span><br>'
 
 const myFunction = function () {
 	document.getElementById('output').innerHTML += '<span style="color: grey;">`Дивные циклы идут далее >>></span><br>'
