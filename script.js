@@ -99,7 +99,7 @@ function otherFunction() {
 	} else {
 		alert('Грустно для константы')
 	}
-	if (typeof n === 'undefined') {
+	if (typeof str === 'undefined') {
 		alert('Весело')
 	} else {
 		alert('Грустно')
@@ -107,7 +107,7 @@ function otherFunction() {
 }
 mainFunction()
 
-let a = 52
+let a = 50
 document.getElementById(
 	'output'
 ).innerHTML += `<span style="color: pink;">Циферки мои циферки, люблю свои циферки</span><br>`
