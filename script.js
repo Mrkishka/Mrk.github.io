@@ -95,11 +95,11 @@ function otherFunction() {
 		alert('Грустно')
 	}
 	if (typeof yaconst === 'undefined') {
-		alert('<span style="color: purple;">Чинч опа чинч опа</span><br>')
+		alert('Чинч опа чинч опа')
 	} else {
 		alert('Грустно для константы')
 	}
-	if (typeof str === 'undefined') {
+	if (typeof str !== 'undefined') {
 		alert('Весело')
 	} else {
 		alert('Грустно')
