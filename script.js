@@ -91,9 +91,13 @@ function mainFunction() {
 function otherFunction() {
 	if (ya != undefined) {
 		alert('Чинчопа чинчопа')
+	} else {
+		alert('Грустно')
 	}
 	if (yaconst != undefined) {
 		alert('<span style="color: purple;">Чинч опа чинч опа</span><br>')
+	} else {
+		alert('Грустно для константы')
 	}
 }
 mainFunction()
