@@ -31,7 +31,8 @@ content += '</td></tr>'
 content += '<tr><td><h3>Цикл while</h3>'
 let count = 1
 while (count <= 3) {
-	content += '<span style="color: blue;">Цикл while, шаг ' + count + '</span><br>'
+	content +=
+		'<span style="color: blue;">Цикл while, шаг ' + count + '</span><br>'
 	count++
 }
 content += '</td></tr>'
@@ -83,24 +84,41 @@ let sheesh
 let obj = { name: 'Staryi Bloh' }
 
 function mainFunction() {
-	let Lvar = 'Я'
-	const varconsta = 'Тоже Я, но в константе'
-	otherFunction();
+	let ya = 'Я'
+	const yaconst = 'Тоже Я, но в константе'
+	otherFunction(ya, yaconst)
 }
 function otherFunction() {
-	document.getElementById('output').innerHTML += '<span style="color: blue;">Чинчопа чинчопа</span><br>'
+	if (ya != null) {
+		document.getElementById('output').innerHTML +=
+			'<span style="color: blue;">Чинчопа чинчопа</span><br>'
+	}
+	if (yaconst != null) {
+		document.getElementById('output').innerHTML +=
+			'<span style="color: purple;">Чинч опа чинч опа</span><br>'
+	}
 }
-
 mainFunction()
 
 let a = 52
-document.getElementById('output').innerHTML += `<span style="color: pink;">Циферки мои циферки, люблю свои циферки</span><br>`
-document.getElementById('output').innerHTML += `<span style="color: white;">a: ${a}</span><br>`
-document.getElementById('output').innerHTML += `<span style="color: yellow;">++a: ${a++}</span><br>`
-document.getElementById('output').innerHTML += `<span style="color: red;">a++: ${++a}</span><br>`
-document.getElementById('output').innerHTML += `<span style="color: green;">+a: ${+a}</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: pink;">Циферки мои циферки, люблю свои циферки</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: white;">a: ${a}</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: yellow;">++a: ${a++}</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: red;">a++: ${++a}</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: green;">+a: ${+a}</span><br>`
 
 const myFunction = function () {
-	document.getElementById('output').innerHTML += '<span style="color: grey;">Дивные циклы идут далее >>></span><br>'
+	document.getElementById('output').innerHTML +=
+		'<span style="color: grey;">Дивные циклы идут далее >>></span><br>'
 }
 myFunction()
