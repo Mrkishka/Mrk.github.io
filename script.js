@@ -122,8 +122,10 @@ document.getElementById(
 ).innerHTML += `<span style="color: red;">a++: ${++a}</span><br>`
 document.getElementById(
 	'output'
-).innerHTML += `<span style="color: green;">+a: ${+a}</span><br>`
-
+).innerHTML += `<span style="color: green;">++a: ${+a}</span><br>`
+document.getElementById(
+	'output'
+).innerHTML += `<span style="color: red;">a++: ${a++}</span><br>`
 const myFunction = function () {
 	document.getElementById('output').innerHTML +=
 		'<span style="color: grey;">Дивные циклы идут далее >>></span><br>'
