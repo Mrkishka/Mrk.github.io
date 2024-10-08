@@ -89,12 +89,12 @@ function mainFunction() {
 	otherFunction()
 }
 function otherFunction() {
-	if ((ya = undefined)) {
+	if (typeof ya === 'undefined') {
 		alert('Чинчопа чинчопа')
 	} else {
 		alert('Грустно')
 	}
-	if ((yaconst = undefined)) {
+	if (typeof yaconst === 'undefined') {
 		alert('<span style="color: purple;">Чинч опа чинч опа</span><br>')
 	} else {
 		alert('Грустно для константы')
