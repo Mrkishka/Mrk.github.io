@@ -89,10 +89,10 @@ function mainFunction() {
 	otherFunction()
 }
 function otherFunction() {
-	if (ya != null) {
+	if (ya != undefined) {
 		alert('Чинчопа чинчопа')
 	}
-	if (yaconst != null) {
+	if (yaconst != undefined) {
 		alert('<span style="color: purple;">Чинч опа чинч опа</span><br>')
 	}
 }
