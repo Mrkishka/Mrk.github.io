@@ -88,7 +88,7 @@ function mainFunction() {
 	const yaconst = 'Тоже Я, но в константе'
 	otherFunction(ya, yaconst)
 }
-function otherFunction() {
+function otherFunction(ya, yaconst) {
 	if (ya != null) {
 		document.getElementById('output').innerHTML +=
 			'<span style="color: blue;">Чинчопа чинчопа</span><br>'
