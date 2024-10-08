@@ -99,6 +99,11 @@ function otherFunction() {
 	} else {
 		alert('Грустно для константы')
 	}
+	if (typeof n === 'undefined') {
+		alert('Весело')
+	} else {
+		alert('Грустно')
+	}
 }
 mainFunction()
 
