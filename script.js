@@ -86,9 +86,9 @@ let obj = { name: 'Staryi Bloh' }
 function mainFunction() {
 	let ya = 'Я'
 	const yaconst = 'Тоже Я, но в константе'
-	otherFunction(ya, yaconst)
+	otherFunction()
 }
-function otherFunction(ya, yaconst) {
+function otherFunction() {
 	if (ya != null) {
 		alert('Чинчопа чинчопа')
 	}
