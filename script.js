@@ -90,12 +90,10 @@ function mainFunction() {
 }
 function otherFunction(ya, yaconst) {
 	if (ya != null) {
-		document.getElementById('output').innerHTML +=
-			'<span style="color: blue;">Чинчопа чинчопа</span><br>'
+		alert('Чинчопа чинчопа')
 	}
 	if (yaconst != null) {
-		document.getElementById('output').innerHTML +=
-			'<span style="color: purple;">Чинч опа чинч опа</span><br>'
+		alert('<span style="color: purple;">Чинч опа чинч опа</span><br>')
 	}
 }
 mainFunction()
